@@ -1,0 +1,18 @@
+<!-- Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario -->
+- id | BIGINT | NOTNULL, UNIQUE
+- prezzo | FLOAT(8,2) | NOTNULL
+- posti a sedere | VARCHAR(30) | NOTNULL
+- cavalli | SMALLINT | NOTNULL
+- KW | SMALLINT | NOT
+- velocità massima | SMALLINT | NOT
+- Emissioni | VARCHAR(20) | NOTNULL
+- colore | VARCHAR(30) | NOT
+- anno di produzione | DATE | NOTNULL
+- anno di immatricolazione | DATE | NOTNULL
+- numero di telaio | VARCHAR(17) | NOTNULL UNIQUE
+- cilindrta | VARCHAR(10) | NOTNULL
+- numero proprietari | TINYINT | NOT
+- numerosità in decibel | SMALLINT | NOT
+- targa dell'auto | VARCHAR(7) | NOTNULL UNIQUE
+- modello | VARCHAR(30) | NOTNULL
+- marca | VARCHAR(30) | NOTNULL
